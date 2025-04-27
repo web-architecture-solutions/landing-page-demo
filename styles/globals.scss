@@ -2,7 +2,7 @@
 @use "./variables" as variables;
 
 body {
-  background-color: variables.$lightGray;
+  background-color: variables.$darkGray;
 
   font-size: var(--base-font-size);
 
@@ -25,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: variables.$mediumGray;
+  color: variables.$mediumLightGray;
 
   font-family: var(--body-font);
 }
@@ -59,7 +59,7 @@ h6 {
 }
 
 p, button {
-  color: variables.$darkGray;
+  color: variables.$mediumDarkGray;
 }
 
 p {
@@ -70,8 +70,6 @@ p {
 
   margin: 0 0 1em;
 
-  text-align: justify;
-
   &:last-of-type {
     margin: 0;
   }
@@ -79,9 +77,9 @@ p {
 
 button {
   background-color: white;
-  color: variables.$mediumGray;
+  color: variables.$mediumLightGray;
 
-  border: solid 0.125em variables.$darkGold;
+  border: solid 0.125em variables.$lightGray;
   border-radius: 0.25em;
 
   cursor: pointer;
@@ -91,9 +89,11 @@ button {
 
   margin: 1em 0 0;
   padding: 0.5em;
+
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;;
 }
 
 footer {
-  background-color: variables.$darkGray;
+  background-color: variables.$mediumDarkGray;
   color: white;
 }

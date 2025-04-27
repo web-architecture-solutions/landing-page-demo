@@ -1,20 +1,20 @@
-import { Major_Mono_Display, Mona_Sans } from "next/font/google";
+import { Ubuntu, Open_Sans } from "next/font/google";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 import "../styles/globals.scss";
 
-const headingFont = Major_Mono_Display({
+const headingFont = Ubuntu({
   weight: "400",
   variable: "--heading-font",
   subsets: ["latin"],
 });
 
-const bodyFont = Mona_Sans({
+const bodyFont = Open_Sans({
   weight: "400",
   variable: "--body-font",
-  style: ["normal", "italic"],
+  style: ["normal"],
   subsets: ["latin"],
 });
 

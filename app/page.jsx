@@ -19,7 +19,7 @@ export default function Home() {
           </section>
         ))}
 
-        <button>Subscribe</button>
+        <button>Submit</button>
       </div>
     </>
   );
