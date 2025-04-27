@@ -1,0 +1,82 @@
+/* #region Breakpoints */
+
+$landscape: 576px;
+$tablet   : 768px;
+$laptop   : 1024px;
+$desktop  : 1280px;
+
+/* #endregion Breakpoints */
+
+/* #region Colors */
+
+$darkGold: #A9904C;
+$lightGold: #DCD1B2;
+$darkGray: #595959;
+$mediumGray: #757575;
+$lightGray: #949494;
+
+$navy: #374768;
+
+/* #endregion Colors */
+
+/* #region Mobile Safe Areas */
+
+$safeAreaTop   : env(safe-area-inset-top);
+$safeAreaRight : env(safe-area-inset-right);
+$safeAreaBottom: env(safe-area-inset-bottom);
+$safeAreaLeft  : env(safe-area-inset-left);
+
+/* #endregion Mobile Safe Areas */
+
+/* #region Text */
+
+$baseFontSize: 16px;
+$laptopFontSize: 18px;
+
+$mobileTextSmall   : 0.937rem;
+$landscapeTextSmall: 0.889rem;
+$tabletTextSmall   : 0.833rem;
+$laptopTextSmall   : 0.8rem;
+$desktopTextSmall  : 0.75rem;
+
+/* #region Headings */
+
+$mobileH1   : 1.476rem;
+$mobileH2   : 1.383rem;
+$mobileH3   : 1.296rem;
+$mobileH4   : 1.215rem;
+$mobileH5   : 1.138rem;
+$mobileH6   : 1.067rem;
+
+$landscapeH1: 2.027rem;
+$landscapeH2: 1.802rem;
+$landscapeH3: 1.602rem;
+$landscapeH4: 1.424rem;
+$landscapeH5: 1.266rem;
+$landscapeH6: 1.125rem;
+
+$tabletH1   : 2.986rem;
+$tabletH2   : 2.488rem;
+$tabletH3   : 2.074rem;
+$tabletH4   : 1.728rem;
+$tabletH5   : 1.440rem;
+$tabletH6   : 1.200rem;
+
+$laptopH1   : 3.815rem;
+$laptopH2   : 3.052rem;
+$laptopH3   : 2.441rem;
+$laptopH4   : 1.953rem;
+$laptopH5   : 1.563rem;
+$laptopH6   : 1.250rem;
+
+$desktopH1  : 5.610rem;
+$desktopH2  : 4.209rem;
+$desktopH3  : 3.157rem;
+$desktopH4  : 2.369rem;
+$desktopH5  : 1.777rem;
+$desktopH6  : 1.333rem;
+
+/* #endregion Headings */
+
+/* #endregion Text */
+

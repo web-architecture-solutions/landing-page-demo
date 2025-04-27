@@ -1,0 +1,99 @@
+@use "./root";
+@use "./variables" as variables;
+
+body {
+  background-color: variables.$lightGray;
+
+  font-size: var(--base-font-size);
+
+  margin: 0;
+}
+
+main {
+  background-color: white;
+
+  box-shadow: 0px 0 var(--h1) rgba(0, 0, 0, 0.5);
+
+  margin: 0 auto;
+
+  max-width: 1440px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: variables.$mediumGray;
+
+  font-family: var(--body-font);
+}
+
+h2, h3, h4, h5, h6 {
+  margin: 1em 0;
+}
+
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
+h5 {
+  font-size: var(--h5);
+}
+
+h6 {
+  font-size: var(--h6);
+}
+
+p, button {
+  color: variables.$darkGray;
+}
+
+p {
+  font-family: var(--body-font);
+  font-size: var(--base-font-size);
+
+  line-height: 1.5;
+
+  margin: 0 0 1em;
+
+  text-align: justify;
+
+  &:last-of-type {
+    margin: 0;
+  }
+}
+
+button {
+  background-color: white;
+  color: variables.$mediumGray;
+
+  border: solid 0.125em variables.$darkGold;
+  border-radius: 0.25em;
+
+  cursor: pointer;
+
+  font-family: var(--body-font);
+  font-size: var(--h3);
+
+  margin: 1em 0 0;
+  padding: 0.5em;
+}
+
+footer {
+  background-color: variables.$darkGray;
+  color: white;
+}

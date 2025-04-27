@@ -1,0 +1,62 @@
+@use "./variables" as variables; 
+
+:root {
+    --base-font-size: #{variables.$baseFontSize};
+    
+    --h1: #{variables.$mobileH1};
+    --h2: #{variables.$mobileH2};
+    --h3: #{variables.$mobileH3};
+    --h4: #{variables.$mobileH4};
+    --h5: #{variables.$mobileH5};
+    --h6: #{variables.$mobileH6};
+
+    --text-small: #{variables.$mobileTextSmall};
+
+    @media (min-width: variables.$landscape) {
+        --h2: #{variables.$landscapeH2};
+        --h1: #{variables.$landscapeH1};
+        --h3: #{variables.$landscapeH3};
+        --h4: #{variables.$landscapeH4};
+        --h5: #{variables.$landscapeH5};
+        --h6: #{variables.$landscapeH6};
+
+        --text-small: #{variables.$landscapeTextSmall};
+    }
+    
+    @media (min-width: variables.$tablet) {
+        --h1: #{variables.$tabletH1};
+        --h2: #{variables.$tabletH2};
+        --h3: #{variables.$tabletH3};
+        --h4: #{variables.$tabletH4};
+        --h5: #{variables.$tabletH5};
+        --h6: #{variables.$tabletH6};
+
+        --text-small: #{variables.$tabletTextSmall};
+    }
+    
+    @media (min-width: variables.$laptop) {   
+        --base-font-size: #{variables.$laptopFontSize};
+
+        --h1: #{variables.$laptopH1};
+        --h2: #{variables.$laptopH2};
+        --h3: #{variables.$laptopH3};
+        --h4: #{variables.$laptopH4};
+        --h5: #{variables.$laptopH5};
+        --h6: #{variables.$laptopH6};
+        
+        --text-small: #{variables.$laptopTextSmall};
+
+        --top-header-height: 0rem;
+    }
+    
+    @media (min-width: variables.$desktop) {
+        --h1: #{variables.$desktopH1};
+        --h2: #{variables.$desktopH2};
+        --h3: #{variables.$desktopH3};
+        --h4: #{variables.$desktopH4};
+        --h5: #{variables.$desktopH5};
+        --h6: #{variables.$desktopH6};
+        
+        --text-small: #{variables.$desktopTextSmall};
+    }
+}

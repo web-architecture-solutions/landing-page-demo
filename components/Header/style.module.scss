@@ -1,0 +1,19 @@
+@use "../../styles/variables" as variables;
+
+.Header {
+    background-color: variables.$navy;
+    color: white;
+    
+    white-space: nowrap;
+
+    h1 {
+        border-bottom: solid 0.25em variables.$darkGold;
+
+        color: white; 
+        
+        font-family: var(--heading-font);
+
+        margin: 0;
+        padding: 1em;
+    }
+}
