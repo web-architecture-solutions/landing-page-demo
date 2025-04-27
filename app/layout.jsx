@@ -19,8 +19,8 @@ const bodyFont = Open_Sans({
 });
 
 export const metadata = {
-  title: "The Vector Report",
-  description: "Daily AI-Driven Analysis of Unusual Options Activity",
+  title: "The Demo Site",
+  description: "A demo landing page site by Web Architecture Solutions",
 };
 
 export default function RootLayout({ children }) {
